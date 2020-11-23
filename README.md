@@ -1,6 +1,7 @@
 # dec_task
 Deployed:
 https://dec-task.herokuapp.com
+
 ​POST api/movies:
 Download movie data from external api and save it in database.
 Required json body fields: 
@@ -21,10 +22,10 @@ POST api/comments:
 Create comment attached to movie
 Json body requires body and movie_id fields.
 
-GET /comments:
+GET api/comments:
 Show all created comments or only comments attached to specific movie
 
-GET movies/top:
+GET api/movies/top:
 Show movie ranking based on number of comments
 and comments quantity for each movie
 Required query params date_from, date_to
