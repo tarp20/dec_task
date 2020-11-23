@@ -1,0 +1,1 @@
+web: gunicorn dec_task.wsgi --log-file -
