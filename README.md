@@ -51,6 +51,7 @@ year
 
 GET api/movies:
 Display all movies in database
+
 DELETE api/movies/<movie-id>/:
 Delete movie
 
