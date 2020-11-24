@@ -194,5 +194,5 @@ class CommentsRequestsTestCase(TestCase):
 
 class ReportsConfigTest(TestCase):
     def test_apps(self):
-        self.assertEqual(MovieApiConfig.name, 'movie_api')
-        self.assertEqual(apps.get_app_config('movie_api').name, 'movie_api')
+        self.assertEqual(MovieApiConfig.name, 'api_movie')
+        self.assertEqual(apps.get_app_config('api_movie').name, 'api_movie')
