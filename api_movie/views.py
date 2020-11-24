@@ -40,7 +40,7 @@ class MoviesView(APIView):
         else:
             return Response(data={'Error': 'You must provide title and year in POST method'})
 
-        api_key = 'cf65aa9a'
+        api_key = API_KEY
         url = f'http://www.omdbapi.com/?t={title}&type=movie&apikey={api_key}&y={year}'
         response = requests.get(url)
         if response.status_code == 200 and response.json()['Response'] == 'True':
