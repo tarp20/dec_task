@@ -68,4 +68,4 @@ Show all created comments or only comments attached to specific movie
 GET api/movies/top:
 Show movie ranking based on number of comments
 and comments quantity for each movie
-Required query params date_from, date_to
+Required query params date_start, date_end
